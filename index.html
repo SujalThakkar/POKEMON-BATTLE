@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+  <title>POKEMON BATTLE</title>
+
+   <script src="p5.min.js"></script>
+   <script src="p5.dom.min.js"></script>
+   <script src="p5.play.js"></script>
+   <script src="p5.sound.min.js"></script>
+   <script src="js/Player.js"></script>
+   <script src="js/Game.js"></script>
+   <script src="js/Form.js"></script>
+   <script src="js/choosePokemon.js"></script>
+   <script src="js/damageCount.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBM1Cg3YU0o5iGVDGOEpdOpkRAbQTehPA4",
+    authDomain: "pokemongame-95dca.firebaseapp.com",
+    databaseURL: "https://pokemongame-95dca-default-rtdb.firebaseio.com",
+    projectId: "pokemongame-95dca",
+    storageBucket: "pokemongame-95dca.appspot.com",
+    messagingSenderId: "196416376889",
+    appId: "1:196416376889:web:5a9e827d0dead718923de8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+ 
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <meta charset="utf-8">
+
+
+
+</head>
+<body>
+ <script src="sketch.js"></script>
+</body>
+</html>
